@@ -2,3 +2,6 @@
 build/
 .project
 .settings
+.idea/
+*.iml
+.vscode/
