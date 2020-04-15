@@ -28,6 +28,6 @@ jar {
     configurations.runtime.each { includes.add("@${it.getAbsolutePath()}") }
     bnd(
         // when this is active, sun.misc appears in the Import-Package section
-        '-includeresource': includes.join(',')
+        //'-includeresource': includes.join(',')
     )
 }
